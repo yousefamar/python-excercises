@@ -1,2 +1,32 @@
-# python-excercises
-A set of Python exercises that I use for teaching
+# Python exercises for ages 10+
+
+## Overview
+
+This repository contains a set of Python exercises that I use for teaching. The exercises are designed in such a way that they can be broken down into smaller steps for students who struggle. Most of these have a section called "extra" which is intended for students who are further along.
+
+## Summary
+
+| Exercise         | Required libs              | Description                                                                                                                                                                                                                                                |
+|------------------|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Basics           | -                          | Some basic exercises for familiarising with IDLE, variables, I/O, data types, and operators                                                                                                                                                                |
+| Password checker | -                          | A program for checking the strength of an input password using conditional statements and relational operators                                                                                                                                             |
+| Calculator       | -                          | A simple calculator that applies a chosen mathematical operator to two given numbers                                                                                                                                                                       |
+| Grid             | turtle                     | Using imperative programming, the turtle library, and nested loops, we draw a grid                                                                                                                                                                         |
+| Polygons         | turtle                     | Using simple geometry and loops, we draw regular polygons                                                                                                                                                                                                  |
+| Checkers         | tkinter                    | Using the graphical library Tkinter, functions, and modular arithmetic, we render a checkerboard                                                                                                                                                           |
+| Paint            | tkinter                    | A simple paint program that introduces event-driven programming using mouse and keyboard events, and a precursor to axis-aligned bounding box collision detection (by checking if a coordinate is contained in a rectangle)                                |
+| Snow             | tkinter                    | An animated scene of a parallax snowfall using the random library, lists, and a render loop. Advanced students who have been introduced to object-oriented programming should create a Snow class from the start, otherwise take a data-oriented approach. |
+| Recursion        | -                          | An introduction to recursion by creating a recursive factorial function                                                                                                                                                                                    |
+| Name search      | -                          | Read a list of names from a given file into a list and performing a recursive binary search on them                                                                                                                                                        |
+| Binary trees     | turtle, (random)           | Using recursive functions we draw binary trees with the turtle package                                                                                                                                                                                     |
+| Card shuffle     | -                          | An introduction into object-oriented programming and algorithm design. Implementing shuffles and sorts with lower computational complexity (linear or logarithmic) is only a requirement for advanced students.                                            |
+| Card game        | tkinter                    | A simple, mouse-operated card game where you can drag and flip cards                                                                                                                                                                                       |
+| Ice dodger       | tkinter                    | Combining a range of past skills to create a game where the player must dodge falling objects                                                                                                                                                              |
+| Ball pit         | tkinter                    | Putting Entity-Component Systems into practice and creating a physics engine. OOP is a requirement and students must understand class diagrams                                                                                                             |
+| Waypoints        | tkinter, threading         | An introduction to parallel programming through multithreading. We separate rendering and logic and have entities follow a random waypoint model of mobility.                                                                                              |
+| Multiplayer      | tkinter, threading, socket | We expand our game engine to communicate with a server that synchronises the positions of all user avatars in the class                                                                                                                                    |
+| Game.io          | tkinter, threading, socket | Using everything we have learned so far, students can recreate the *.io game of their choosing, or invent their own                                                                                                                                        |
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
