@@ -1,3 +1,7 @@
+---
+title: Password checker
+author: Yousef Amar
+---
 # Create a password checker
 
 ## Part 1
