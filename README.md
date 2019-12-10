@@ -6,7 +6,7 @@ This repository contains a set of Python exercises that I use for teaching. The 
 
 ## Summary
 
-| Exercise         | Required libs              | Description                                                                                                                                                                                                                                                |
+| Exercise         | Libraries                  | Description                                                                                                                                                                                                                                                |
 |------------------|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Basics           | -                          | Some basic exercises for familiarising with IDLE, variables, I/O, data types, and operators                                                                                                                                                                |
 | Password checker | -                          | A program for checking the strength of an input password using conditional statements and relational operators                                                                                                                                             |
