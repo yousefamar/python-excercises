@@ -7,11 +7,11 @@ author: Yousef Amar
 
 ## Part 1
 
-Say hello to the user. Declare a string variable called x and assign it the value "Hello". Print out the value of x.
+Say hello to the user. Create a variable called `x` and assign it the value "Hello". Print the value of `x`.
 
 ## Part 2
 
-Add two variables together. Declare three variables (x, y, and z) as integers. Assign a value of 9 to x, assign a value of 7 to y, and then make z equal to the sum of those two variables. Print out the contents of the z variable.
+Add two variables together. Create three variables: `x`, `y`, and `z`. Assign a value of 9 to `x`, assign a value of 7 to `y`, and then make `z` equal to the sum of those two variables. Print the contents of the `z` variable.
 
 ## Part 3
 
