@@ -1,3 +1,7 @@
+---
+title: Calculator
+author: Yousef Amar
+---
 # Create a calculator
 
 ## Part 1
