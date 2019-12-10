@@ -19,12 +19,8 @@ Ask the user for a number of sides, and based on the number given, have your pro
 
 ## Extra
 
-Find a relationship between the number of sides and the side lengths such that all shapes are the same height/width.
-
-Turn your shape-drawing code into a function that takes the number of sides and the shape size as arguments.
-
-Extend your function such that if given a number below 3 for the number of sides, it prints an error message indicating an invalid argument.
-
-Using a second loop, draw all shapes from 3 sides (triangle) to 8 sides (octagon). You can use the turtle function `clear()` to erase everything that has been drawn between shapes.
-
-Draw a circle.
+- Find a relationship between the number of sides and the side lengths such that all shapes are the same height/width.
+- Turn your shape-drawing code into a function that takes the number of sides and the shape size as arguments.
+- Extend your function such that if given a number below 3 for the number of sides, it prints an error message indicating an invalid argument.
+- Using a second loop, draw all shapes from 3 sides (triangle) to 8 sides (octagon). You can use the turtle function `clear()` to erase everything that has been drawn between shapes.
+- Draw a circle.
