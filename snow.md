@@ -107,7 +107,7 @@ Add a third list of 100 sizes that range from 1 to 10. Use these sizes to determ
 
 ## Extra
 
-<img src="img/snow-compressed.png" alt="Snowfall scene demo" width="50%"/>
+<img src="img/snow-compressed.gif" alt="Snowfall scene demo" width="50%"/>
 
 Bind a mouse movement listener to your canvas like below.
 
