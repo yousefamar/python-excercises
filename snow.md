@@ -1,5 +1,5 @@
 ---
-title: Animation
+title: Snowfall
 author: Yousef Amar
 ---
 
@@ -7,7 +7,8 @@ author: Yousef Amar
 
 This exercise is intended to be complete during the final lesson of the term just before Christmas break. This is a walkthrough-style exercise and the teacher should take the students through creating a parallax snowfall scene step by step. Students familiar with OOP should create a snowflake class, otherwise lists like below.
 
-<details><summary>Final code</summary><p>
+<details><summary markdown="span">Final code
+</summary>
 
 ```
 from tkinter import *
@@ -62,8 +63,7 @@ c.bind("<Motion>", onMouseMove)
 render()
 mainloop()
 ```
-
-</p></details>
+</details>
 
 ## Part 1
 

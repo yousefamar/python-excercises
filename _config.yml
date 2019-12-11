@@ -1,1 +1,4 @@
 title: Python exercises for ages 10+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
