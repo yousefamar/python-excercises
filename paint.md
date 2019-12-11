@@ -9,7 +9,7 @@ author: Yousef Amar
 
 Using the below code as a starting point, create a small square wherever the user drags their mouse.
 
-```
+```python
 from tkinter import *
 
 c = Canvas(Tk(), width = 500, height = 500)

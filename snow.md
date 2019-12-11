@@ -10,7 +10,7 @@ This exercise is intended to be complete during the final lesson of the term jus
 <details><summary markdown="span">Final code
 </summary>
 
-```
+```python
 from tkinter import *
 import random
 
@@ -69,7 +69,7 @@ mainloop()
 
 Modify the below code such that the snowflake returns back to the top when it reaches the bottom of the window. Do the same horizontally.
 
-```
+```python
 from tkinter import *
 
 w = 500
@@ -111,7 +111,7 @@ Add a third list of 100 sizes that range from 1 to 10. Use these sizes to determ
 
 Bind a mouse movement listener to your canvas like below.
 
-```
+```python
 mouseX = 0
 mouseY = 0
 

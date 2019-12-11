@@ -16,7 +16,7 @@ Extend your program to check if the given password is below 8 characters. If it 
 
 Python has built-in functions for checking if a string is all lowercase or all uppercase. These are `foo.islower()` and `foo.isupper()`, where `foo` is a string. For example:
 
-```
+```python
 text = "BAR"
 print(text.isupper())
 # Outputs True

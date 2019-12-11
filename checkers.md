@@ -9,7 +9,7 @@ author: Yousef Amar
 
 Using the below code as a starting point, create a function called `createSquare` that takes 4 arguments: `x`, `y`, `size`, and `colour`, such that `createSquare(10, 10, 50, "white")` draws a white square 50 pixels in height and width with its top-left corner at the coordinate (x, y).
 
-```
+```python
 from tkinter import *
 
 c = Canvas(Tk(), width=500, height=500)

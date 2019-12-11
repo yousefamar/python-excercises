@@ -10,7 +10,7 @@ author: Yousef Amar
 <details><summary markdown="span">Final code
 </summary>
 
-```
+```python
 from turtle import *
 from random import *
 

@@ -9,7 +9,7 @@ author: Yousef Amar
 
 Run the below code. Given that the `render` function is called every 10 milliseconds, how many frames per second are rendered? There are 1000 milliseconds in a second. What is the square's speed in pixels per second?
 
-```
+```python
 from tkinter import *
 
 c = Canvas(Tk(), width = 500, height = 500)
