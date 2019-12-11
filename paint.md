@@ -35,7 +35,7 @@ mainloop()
 
 Calculate the coordinates and create three squares in a row (red, green, and blue) at the bottom left corner of the window like in the image below.
 
-<img src="img/paint.png" alt="The paint window" width="506"/>
+<img src="img/paint.png" alt="The paint window" width="50%"/>
 
 Extend the mouse-click callback function to detect if a mouse click is inside the bounds of one of these three squares. If it is, set a global `colour` variable to the corresponding colour and use it to change the colour of your "brush". Set the named variable `outline` to the same colour as `fill` to avoid black outlines.
 

@@ -7,8 +7,7 @@ author: Yousef Amar
 
 This exercise is intended to be complete during the final lesson of the term just before Christmas break. This is a walkthrough-style exercise and the teacher should take the students through creating a parallax snowfall scene step by step. Students familiar with OOP should create a snowflake class, otherwise lists like below.
 
-<details>
-	<summary>Final code</summary>
+<details><summary>Final code</summary><p>
 
 ```
 from tkinter import *
@@ -64,7 +63,7 @@ render()
 mainloop()
 ```
 
-</details>
+</p></details>
 
 ## Part 1
 
@@ -108,7 +107,7 @@ Add a third list of 100 sizes that range from 1 to 10. Use these sizes to determ
 
 ## Extra
 
-![Snowfall scene demo](img/snow-compressed.gif)
+<img src="img/snow-compressed.png" alt="Snowfall scene demo" width="50%"/>
 
 Bind a mouse movement listener to your canvas like below.
 

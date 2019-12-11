@@ -7,8 +7,7 @@ author: Yousef Amar
 
 ![Recursive tree](img/tree.jpg)
 
-<details>
-	<summary>Final code</summary>
+<details><summary>Final code</summary><p>
 
 ```
 from turtle import *
@@ -66,4 +65,4 @@ tree(6, randint(minBranches, maxBranches), randrange(minLength, maxLength), rand
 update()
 ```
 
-</details>
+</p></details>
