@@ -65,4 +65,5 @@ def tree(depth, branches, size, angle):
 tree(6, randint(minBranches, maxBranches), randrange(minLength, maxLength), randrange(minAngle, maxAngle))
 update()
 ```
+
 </details>

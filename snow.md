@@ -10,59 +10,60 @@ This exercise is intended to be complete during the final lesson of the term jus
 <details>
 	<summary>Final code</summary>
 
-	```
-	from tkinter import *
-	import random
-	
-	w = 500
-	h = 500
-	
-	c = Canvas(Tk(), width = w, height = h)
-	c.pack()
-	c.config(background = "black")
-	
-	xs    = []
-	ys    = []
-	sizes = []
-	
-	for i in range(100):
-	    xs.append(random.randint(0, w))
-	    ys.append(random.randint(0, h))
-	    sizes.append(random.randint(1, 10))
-	
-	mouseX = 0
-	mouseY = 0
-	
-	def render():
-	    c.delete("all")
-	    for i in range(100):
-	        x = xs[i]
-	        y = ys[i]
-	        s = sizes[i]
-	
-	        c.create_oval(x, y, x + s, y + s, fill="white", outline="white")
-	
-	        ys[i] = ys[i] + (s / 10) * ((mouseY / h) + 1)
-	        xs[i] = xs[i] + ((mouseX / w) * 2) - 1
-	        if y > h:
-	            ys[i] = 0
-	        if x < 0:
-	            xs[i] = w
-	        elif x > w:
-	            xs[i] = 0
-	    c.after(10, render)
-	
-	def onMouseMove(event):
-	    global mouseX
-	    global mouseY
-	    mouseX = event.x
-	    mouseY = event.y
-	
-	c.bind("<Motion>", onMouseMove)
-	
-	render()
-	mainloop()
-	```
+```
+from tkinter import *
+import random
+
+w = 500
+h = 500
+
+c = Canvas(Tk(), width = w, height = h)
+c.pack()
+c.config(background = "black")
+
+xs    = []
+ys    = []
+sizes = []
+
+for i in range(100):
+    xs.append(random.randint(0, w))
+    ys.append(random.randint(0, h))
+    sizes.append(random.randint(1, 10))
+
+mouseX = 0
+mouseY = 0
+
+def render():
+    c.delete("all")
+    for i in range(100):
+        x = xs[i]
+        y = ys[i]
+        s = sizes[i]
+
+        c.create_oval(x, y, x + s, y + s, fill="white", outline="white")
+
+        ys[i] = ys[i] + (s / 10) * ((mouseY / h) + 1)
+        xs[i] = xs[i] + ((mouseX / w) * 2) - 1
+        if y > h:
+            ys[i] = 0
+        if x < 0:
+            xs[i] = w
+        elif x > w:
+            xs[i] = 0
+    c.after(10, render)
+
+def onMouseMove(event):
+    global mouseX
+    global mouseY
+    mouseX = event.x
+    mouseY = event.y
+
+c.bind("<Motion>", onMouseMove)
+
+render()
+mainloop()
+```
+
 </details>
 
 ## Part 1
