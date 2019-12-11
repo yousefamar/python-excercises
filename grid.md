@@ -5,7 +5,7 @@ author: Yousef Amar
 
 # Draw a grid
 
-<img src="img/grid.gif" alt="Demo of turtle drawing a 3x3 grid" width="50%"/>
+<img src="img/grid.gif" alt="Demo of turtle drawing a 3x3 grid" width="20%"/>
 
 ## Part 1
 
