@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Python Quiz</title>
+		<script src="lib/skulpt.es5.min.js" type="text/javascript"></script>
+		<script src="lib/skulpt-stdlib.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+		<script src="lib/codemirror.js"></script>
+		<link rel="stylesheet" href="lib/codemirror.css">
+		<script src="lib/python.js"></script>
+		<style type="text/css" media="screen">
+h1 {
+	margin: 1rem;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+#content {
+	display: flex;
+	flex: 1;
+}
+.column {
+	display: flex;
+	flex-flow: column;
+	padding: 1rem;
+	flex: 50%;
+}
+#code {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+	border: 1px solid lightgrey;
+}
+#code div {
+	flex: 1;
+}
+#output {
+	flex: 1;
+	border: 1px solid lightgrey;
+}
+#console {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+		</style>
+	</head>
+	<body>
+		<h1>Age checker</h1>
+		<div id="content">
+			<div class="column">
+				<h3>Code (F5 to run)</h3>
+				<div id="code"></div>
+			</div>
+			<div class="column">
+				<h3>Output</h3>
+				<div id="output">
+					<div id="canvas"></div>
+					<pre id="console"></pre>
+				</div>
+			</div>
+		</div>
+		<script src="quiz.js" type="text/javascript"></script>
+	</body>
+</html>
