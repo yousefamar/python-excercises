@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a set of Python exercises that I use for teaching. The exercises are designed in such a way that they can be broken down into smaller steps for students who struggle. Most of these have a section called "extra" which is intended for students who are further along. If you're looking for my Scratch material, you're in the wrong place, see [here](https://scratch.mit.edu/users/dramar/) instead.
+This repository contains a set of Python exercises that I use for teaching. The exercises are designed in such a way that they can be broken down into smaller steps for students who struggle. Most of these have a section called "extra" which is intended for students who are further along. If you're looking for my Scratch material for ages 5+, you're in the wrong place, see [here](https://scratch.mit.edu/users/dramar/) instead.
 
 ## Summary
 
